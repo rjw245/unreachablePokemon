@@ -28,7 +28,7 @@ if __name__=="__main__":
 
     #pokeNumSet contains all possible results
     allPokeNums = set()
-    for i in range(1,649):
+    for i in range(1,650):
         allPokeNums.add(i)
 
     impossiblePokeNums = allPokeNums.difference(pokeNumSet)
